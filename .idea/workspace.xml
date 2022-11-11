@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8aae5825-f22e-4f54-8252-f6f68274fe56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/Cashflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/CashflowBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/ICashflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/agent/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/agent/Marketer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/agent/Repairer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/container/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/container/ManagerContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/container/MarketerContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/container/RepairerContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/AutomobileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/CashflowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/DiagnosticController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/DossierController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/GarageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/LogisticController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/PurchaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/ReceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/RepairController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/ResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/SaleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/ArticleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/AtelierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/AuthSessionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/AutomobileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/BillingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/CalendarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/ControlRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/CriteriaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/DefaultRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/DeliveryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/DiagnosticRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/DossierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/EvaluationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/FinanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/FurnisherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/ImmobilityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/LogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/NoticeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/PositionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/ProfileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/PurchaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/QualityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/ReceptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/RecipeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/RepairRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/ReparationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/SalaryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/SaleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/SolutionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/SpaceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/SpareRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/SpentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Atelier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/AuthSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Automobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Billing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Control.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Criteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Default.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Diagnostic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Dossier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Evaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Finance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Furnisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Immobility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Quality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Reception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Repair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Reparation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Space.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Spare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/Spent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/authenticator/Authenticate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/authenticator/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/authenticator/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/authenticator/IAuthenticate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/authenticator/RegistrateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/IManageAutomobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/IManageCashflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/IManageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/IManageDossier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/IManageGarage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/IManageResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/ManageAutomobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/ManageAutomobileRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/ManageCashflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/ManageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/ManageClientRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/ManageDossier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/ManageDossierRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/ManageGarage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/ManageGarageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/manager/ManageResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/marketer/IMarketLogistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/marketer/IMarketPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/marketer/IMarketSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/marketer/IMarketStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/marketer/MarketLogistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/marketer/MarketPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/marketer/MarketSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/marketer/MarketStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/repairer/IRepairDiagnostic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/repairer/IRepairQuality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/repairer/IRepairReception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/repairer/IRepairReparation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/repairer/RepairDiagnostic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/repairer/RepairDiagnosticRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/repairer/RepairQuality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/repairer/RepairReception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/repairer/RepairReceptionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/repairer/RepairReparation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/repairer/RepairReparationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AgendaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AtelierController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AutomobileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/DossierController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FournitureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/GuiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/QualiteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ReceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ReparationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/TresorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/config/AppJavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/config/HibernateJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/config/LoadDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/config/SpringFXMLLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/http/HttpRequestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/http/HttpRequestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/io/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/io/NumberToWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/io/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/io/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/logging/ExceptionWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/logging/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/security/Access.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/security/Crypto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/security/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendor/security/Mailer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/AlertConfirm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/AlertError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/AlertInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/AlertWarning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/AnchorPaneNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/FullCalendarView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/FxmlView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/Popup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/Spinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/StageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/WebView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/font/GloriousFree-dBR6.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Frame 8 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/bilan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/ico.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-accountant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-achat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-add.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-apply.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-bilan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-billing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-cancel.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-compte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-danger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-delete.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-details.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-devis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-edit.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-evaluation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-facture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-fournisseur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-home.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-info.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-list.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-messagerie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-new.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-printer.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-profil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-quality.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-remove.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-sales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-save.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-settings.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-solde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-tresor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-user.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-vente.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/ico-warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icon/kisspng-passive-income-revenue-passive-voice-passive-income-5b3e2e2eef0b78.8381856315308017109791.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/main/admin.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/main/agenda.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/main/article.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/main/automobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/main/client.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/main/dossier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/main/profil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/main/reception.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/main/reparation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/main/stock.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/main/tresor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/datawarehouse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/admin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/agenda.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/auth-signin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/auth-signup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/automobile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/client.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/dashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/dossier.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/fourniture.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/home-atelier.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/popup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/profile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/reception.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/reparation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/stock.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/support.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/tresor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/achat.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/achat_periodique.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/bilan.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/commande.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/compte.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/devis.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/diagnostic.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/facture.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/livraison.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/ordre.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/reception.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/reparation.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/tresor.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/vente.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jrxml/vente_periodique.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/aes-util-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/bcprov-jdk15on-1.62.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/byte-buddy-1.10.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/commons-codec-1.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/commons-collections4-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/commons-digester-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/h2-1.4.199.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/hibernate-core-5.4.11.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jade.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jandex-2.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jasper-jdt-7.0.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jasperreports-6.12.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/javax.mail-api-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/javax.ws.rs-api-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jaxws-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jfoenix-9.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/junit.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jython-standalone-2.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/mockito-all-1.10.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/mssql-jdbc-9.2.1.jre8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/loga.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/loga.trace.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2EFSq07yO2TapteSpjIitYokS3M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/home/rochdane/IdeaProjects/TRAINING/loga-master/src/main/java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.externalResources",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources/fxml" />
+      <recent name="$PROJECT_DIR$/src/main/java/app/service/authentication" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LoGA">
+    <configuration name="LoGA" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="loga-master" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in loga-master" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="loga-master" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LoGA" />
+      <item itemvalue="JUnit.All in loga-master" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8aae5825-f22e-4f54-8252-f6f68274fe56" name="Changes" comment="" />
+      <created>1662190029349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662190029349</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="5470f290-2ca1-44ee-9496-aa01f81be6a2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/rochdane/IdeaProjects/loga-master/src/main/java" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5470f290-2ca1-44ee-9496-aa01f81be6a2" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/loga_master$LoGA.ic" NAME="LoGA Coverage Results" MODIFIED="1663721254552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
