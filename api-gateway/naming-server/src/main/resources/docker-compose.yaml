@@ -1,0 +1,93 @@
+version: '2.17'
+
+services:
+  authentication-management-services:
+    image: rocdanesabi/loga-master:authentication-management-services-0.0.1-SNAPSHOT
+    mem_limit: 300m
+    ports:
+      - "8001:8001"
+    networks:
+      - loga-network
+    depends_on:
+      - naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+      MANAGEMENT.ZIPKIN.TRACING.ENDPOINT: http://zipkin-server:9411/api/v2/spans
+
+  customer-management-services:
+    image: rocdanesabi/loga-master:customer-management-services-0.0.1-SNAPSHOT
+    ports:
+      - "8002:8002"
+    networks:
+      - loga-network
+    depends_on:
+        - naming-server
+    environment:
+        EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+        MANAGEMENT.ZIPKIN.TRACING.ENDPOINT: http://zipkin-server:9411/api/v2/spans
+
+  repair-management-services:
+    image: rocdanesabi/loga-master:repair-management-services-0.0.1-SNAPSHOT
+    ports:
+      - "8003:8003"
+    networks:
+      - loga-network
+    depends_on:
+      - naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+      MANAGEMENT.ZIPKIN.TRACING.ENDPOINT: http://zipkin-server:9411/api/v2/spans
+
+  data-management-services:
+    image: rocdanesabi/loga-master:data-management-services-0.0.1-SNAPSHOT
+    ports:
+      - "8004:8004"
+    networks:
+      - loga-network
+    depends_on:
+      - naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+      MANAGEMENT.ZIPKIN.TRACING.ENDPOINT: http://zipkin-server:9411/api/v2/spans
+
+  sma-services:
+    image: rocdanesabi/loga-master:sma-services-0.0.1-SNAPSHOT
+    ports:
+      - "8005:8005"
+    networks:
+      - loga-network
+    depends_on:
+      - naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+      MANAGEMENT.ZIPKIN.TRACING.ENDPOINT: http://zipkin-server:9411/api/v2/spans
+
+  gateway-server:
+    image: rocdanesabi/loga-master:gateway-server-0.0.1-SNAPSHOT
+    ports:
+      - "8765:8765"
+    networks:
+      - loga-network
+    depends_on:
+      - naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+      MANAGEMENT.ZIPKIN.TRACING.ENDPOINT: http://zipkin-server:9411/api/v2/spans
+
+  naming-server:
+    image: rocdanesabi/loga-master:naming-server-0.0.1-SNAPSHOT
+    ports:
+      - "8761:8761"
+    networks:
+      - loga-network
+
+  zipkin-server:
+    image: openzipkin/zipkin:2.23
+    ports:
+      - "9411:9411"
+    networks:
+      - loga-network
+    restart: always #Restart if there is a problem starting up
+
+networks:
+  loga-network:
