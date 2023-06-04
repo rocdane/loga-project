@@ -2,8 +2,7 @@
 LoGA - Libreoffice Garage Apps [infos](https://github.com/rocdane/loga-project)
 
 ## Description
-LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans la gestion des maintenances. C'est un projet d'étude qui va au délà de son cadre initial. Le produit final sera utile pout tous les garagistes désirant améliorer leur méthode de travail.
-[A propos](https://github.com/rocdane/loga-project)
+LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans la gestion des maintenances. C'est un projet d'étude qui va au délà de son cadre initial. Le produit final sera utile pout tous les garagistes désirant améliorer leur méthode de travail.[A propos](https://github.com/rocdane/loga-project)
 
 ## Fonctionnalités
 ### Basic
@@ -16,16 +15,19 @@ LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans 
 5. Constitution d'un stock virtuel de pièces de rechanges
 6. Service intelligent d'aide à la commande des pièces de rechanges
 7. Gestion informatisée de l'approvisionnement en pièce de rechanges
-8. Gestion informatisée du flux financier
-9. Gestion informatisée des ressources humaines
-10. Gestion informatisée des ressources matérielles
-11. Elaboration d'un exemplaire de bilan comptable
+8. Gestion informatisée des ressources humaines
+9. Gestion informatisée des ressources matérielles
+10. Gestion informatisée du flux financier
+11. Elaboration du bilan comptable
 
-```txt
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-[pip](http://localhost:8000)
+```json
+{
+  "title":"LoGA-Project",
+  "description":"LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans la gestion des maintenances",
+  "features":[
+    "customer_resource_management":"Gestion informatisée des ressources clients",
+    "maintenance_resource_management":"Gestion informatisée des ressources maintenances",
+    "resource_monitoring_management":"Gestion informatisée des ressources statistiques"
+  ]
+}
 ```
-
