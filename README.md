@@ -33,7 +33,7 @@ LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans 
   ]
 }
 ```
-
+![USE_CASE](media/usecase_diagram.png)
 ## Concepts
 
 ```json
