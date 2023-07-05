@@ -31,19 +31,19 @@ Dans le cadre du travail de fin d'étude pour l'obtention du diplôme de Master 
 ## Conceptions architecturales
 ### Diagramme de séquence du service intelligent
 ![INTELLIGENCE_SEQUENCE](media/comportement/intelligence_sequence_diagram.png)
-### Diagramme de séquence du service de réparation
-![REPAIR_SEQUENCE](media/comportement/repair_sequence_diagram.png)
 ### Diagramme de séquence du service de diagnostic
 ![DIAGNOSIS_SEQUENCE](media/comportement/diagnosis_sequence_diagram.png)
+### Diagramme de séquence du service de réparation
+![REPAIR_SEQUENCE](media/comportement/repair_sequence_diagram.png)
 ### Diagramme de classe du service intelligent
 ![INTELLIGENCE_CLASS](media/structure/intelligent_service_class_diagram.png)
-### Diagramme de classe du service de réparaion
-![REPAIR_CLASS](media/structure/repair_service_class_diagram.png)
-### Diagramme de séquence du service de diagnostic
-![DIAGNOSIS_CLASS](media/structure/diagnosis_service_class_diagram.png)
-### Diagramme de séquence du service client
+### Diagramme de classe du service client
 ![CUSTOMER_CLASS](media/structure/customer_service_class_diagram.png)
-### Diagramme des composants
+### Diagramme de classe du service de diagnostic
+![DIAGNOSIS_CLASS](media/structure/diagnosis_service_class_diagram.png)
+### Diagramme de classe du service de réparation
+![REPAIR_CLASS](media/structure/repair_service_class_diagram.png)
+### Diagramme de composant
 ![COMPONENT](media/structure/component_diagram.png)
 ### Diagramme de déploiement
 ![DEPLOYMENT](media/structure/deployment_diagram.png)
