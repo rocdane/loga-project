@@ -1,20 +1,24 @@
-# LoGA-Project
-LoGA - Libreoffice Garage Apps [infos](https://github.com/rocdane/loga-project)
+# Sujet
+Système de gestion de la maintenance automobile et prototype d'un système d'aide au diagnostic automobile. [infos](https://github.com/rocdane/loga-project)
 
 ## Description
-LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans la gestion des maintenances. C'est un projet d'étude qui va au délà de son cadre initial. Le produit final sera utile pout tous les garagistes désirant améliorer leur méthode de travail.[A propos](https://github.com/rocdane/loga-project)
+La maintenance automobile est un domaine du secteur de l’automobile qui a pour but de gérer les services d’entretien et de réparation des véhicules automobile. Les garagistes, acteurs de ce domaine, font face à certaines difficultés liés à la gestion des maintenances.
+
+Tout garagiste souhaite la bonne gestion de ses affaires incluant la résolution des pannes qu’il a l’opportunité de rencontrer. Toutefois, la maintenance automobile requiert un haut niveau d’intelligence, parfois au dessus des capacités humaines pour résoudre ces derniers.
+
+Dans le cadre du travail de fin d'étude pour l'obtention du diplôme de Master en informatique, nous apportons une solution dédiée à la bonne gestion des maintenances automobile. Le résultat que nous obtiendrons est un système d'informations de prise de décision capable d'assister les garagistes dans leur métier.
 
 ![SOLUTION](media/solution.png)
 
 ## Fonctionnalités
 ![USE_CASE](media/usecase.png)
-### Basic
+### Releases
 1. Gestion informatisée des informations clients
 2. Gestion informatisée des informations de maintenance
-3. Monitoring et reporting des informations de gestion
+3. Service intelligent d'aide au diagnostic
+4. Monitoring et reporting des informations de gestion
 
-### Les plus
-4. Service intelligent d'aide au diagnostic
+### Perspectives
 5. Constitution d'un stock virtuel de pièces de rechanges
 6. Service intelligent d'aide à la commande des pièces de rechanges
 7. Gestion informatisée de l'approvisionnement en pièce de rechanges
@@ -23,111 +27,57 @@ LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans 
 10. Gestion informatisée du flux financier
 11. Elaboration du bilan comptable
 
+
+## Conceptions architecturales
+### Diagramme de séquence du service intelligent
+![INTELLIGENCE_SEQUENCE](media/comportement/intelligence_sequence_diagram.png)
+### Diagramme de séquence du service de réparation
+![REPAIR_SEQUENCE](media/comportement/repair_sequence_diagram.png)
+### Diagramme de séquence du service de diagnostic
+![DIAGNOSIS_SEQUENCE](media/comportement/diagnosis_sequence_diagram.png)
+### Diagramme de classe du service intelligent
+![INTELLIGENCE_CLASS](media/structure/intelligent_service_class_diagram.png)
+### Diagramme de classe du service de réparaion
+![REPAIR_CLASS](media/structure/repair_service_class_diagram.png)
+### Diagramme de séquence du service de diagnostic
+![DIAGNOSIS_CLASS](media/structure/diagnosis_service_class_diagram.png)
+### Diagramme de séquence du service client
+![CUSTOMER_CLASS](media/structure/customer_service_class_diagram.png)
+### Diagramme des composants
+![COMPONENT](media/structure/component_diagram.png)
+### Diagramme de déploiement
+![DEPLOYMENT](media/structure/deployment_diagram.png)
+
+## Programmation
 ```json
 {
-  "title":"LoGA-Project",
-  "description":"LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans la gestion des maintenances",
-  "features":[
-    "customer_resource_management":"Gestion informatisée des ressources clients",
-    "maintenance_resource_management":"Gestion informatisée des ressources maintenances",
-    "resource_monitoring_management":"Gestion informatisée des ressources statistiques"
-  ]
-}
-```
-
-## Concepts
-
-```json
-{
-  "user":{
-  	"username",
-  	"password",
-  	"role"
+  "environment":{
+  	"OS":"Ubuntu 22.10",
+  	"IDE":"Intellij IDEA Community",
+  	"JDK":"openjdk-19"
   },
-  "profile":{
-  	"name",
-  	"surname",
-  	"legacy",
-	"email",
-	"phone",
-	"address",
-	"user",
-	"hireAt",
-	"fireAt"
+  "code":{
+  	"Langage":"Java",
+  	"Framework":{
+  		"client":"openjfx-18",
+  		"server":[
+  			"spring-boot-3.0.6", 
+  			"spring-cloud-2022.0.2"
+  		]
+  	}
   },
-  "maintenance":{
-  	"dossier":{
-	  	"reference",
-	  	"createdAt",
-	  	"customer":{
-	   		"name",
-	    		"contact",
-	    		"address",
-	    		"legacy"
-	  	},
-	  	"automobile":{
-		  	"vin",
-		  	"make",
-		  	"model",
-		  	"number",
-		  	"trim",
-		  	"unit"
-	  	}
-  	},
-  	"diagnosis":{
-	  	"reference",
-	  	"description",
-	  	"factors":[
-	  		"entity",
-	  		"dysfunction",
-	  		"maintenance"
-	  	]
-	},
-  	"repair":{
-	  	"reference",
-	  	"description",
-	  	"tasks":[
-	  		"designation",
-	  		"description",
-	  		"duration",
-	  		"cost"
-	  	],
-	  	"spares":[
-	  		"designation",
-	  		"description",
-	  		"quantity",
-	  		"price",
-	  		"amount"
-	  	]
-	}
+  "build":{
+  	"maven":"3.6.3",
+  	"git":"2.41.0"
+  },
+  "test":{
+  	"jenkins":"2.401.2"
+  },
+  "deployment":{
+  	"docker":"24.0.2"
   }
 }
 ```
-
-## Conception
-### Comportements
-#### Diagramme de séquence du service intelligent
-![INTELLIGENCE_SEQUENCE](media/comportement/intelligence_sequence_diagram.png)
-#### Diagramme de séquence du service de réparation
-![REPAIR_SEQUENCE](media/comportement/repair_sequence_diagram.png)
-#### Diagramme de séquence du service de diagnostic
-![DIAGNOSIS_SEQUENCE](media/comportement/diagnosis_sequence_diagram.png)
-### Structures
-#### Diagramme de classe du service intelligent
-![INTELLIGENCE_CLASS](media/structure/intelligent_service_class_diagram.png)
-#### Diagramme de classe du service de réparaion
-![REPAIR_CLASS](media/structure/repair_service_class_diagram.png)
-#### Diagramme de séquence du service de diagnostic
-![DIAGNOSIS_CLASS](media/structure/diagnosis_service_class_diagram.png)
-#### Diagramme de séquence du service client
-![CUSTOMER_CLASS](media/structure/customer_service_class_diagram.png)
-### Composants
-#### Diagramme des composants
-![COMPONENT](media/structure/component_diagram.png)
-### Déploiement
-#### Diagramme de déploiement
-![DEPLOYMENT](media/structure/deployment_diagram.png)
-
 ## Résultats
 ### Ontologie d'application
 #### Graphe de l'ontologie de diagnostic automobile
