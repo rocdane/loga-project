@@ -107,6 +107,9 @@ Dans le cadre du travail de fin d'étude pour l'obtention du diplôme de Master 
 ![RAPPORT](media/rapport_diagnostic.png)
 
 ## Datas
+### Datamarts de données clients
 ![RAPPORT](media/data/datamarts_dossier.png)
+### Datamarts des données de diagnostic
 ![RAPPORT](media/data/datamarts_diagnosis.png)
+### Datamarts des données de réparation
 ![RAPPORT](media/data/datamarts_repair.png)
