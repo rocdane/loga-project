@@ -7,6 +7,7 @@ LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans 
 ![SOLUTION](media/solution.png)
 
 ## Fonctionnalités
+![USE_CASE](media/usecase.png)
 ### Basic
 1. Gestion informatisée des informations clients
 2. Gestion informatisée des informations de maintenance
@@ -33,7 +34,7 @@ LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans 
   ]
 }
 ```
-![USE_CASE](media/usecase_diagram.png)
+
 ## Concepts
 
 ```json
@@ -102,3 +103,40 @@ LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans 
   }
 }
 ```
+
+## Conception
+### Comportements
+![INTELLIGENCE_SEQUENCE](media/comportement/intelligence_sequence_diagram.png)
+![REPAIR_SEQUENCE](media/comportement/repair_sequence_diagram.png)
+![DIAGNOSIS_SEQUENCE](media/comportement/diagnosis_sequence_diagram.png)
+### Structures
+![INTELLIGENCE_CLASS](media/structure/intelligent_service_class_diagram.png)
+![REPAIR_CLASS](media/structure/repair_service_class_diagram.png)
+![DIAGNOSIS_CLASS](media/structure/diagnosis_service_class_diagram.png)
+![CUSTOMER_CLASS](media/structure/customer_service_class_diagram.png)
+### Composants
+![COMPONENT](media/structure/component_diagram.png)
+### Déploiement
+![DEPLOYMENT](media/structure/deployment_diagram.png)
+
+## Résultats
+### Ontologie d'application
+![ONTOLOGIE](media/ontologie/automaintontology.png)
+![DYSFUNCTION](media/ontologie/indiv_dysfonctionnement.png)
+![MAINTENANCE](media/ontologie/indiv_maintenance.png)
+### Interfaces
+![IHM ACCUEIL](media/ihm/ihm-accueil.png)
+![IHM ACCUEIL ATELIER](media/ihm/ihm-accueil-atelier.png)
+![IHM DASHBOARD](media/ihm/ihm-dashboard.png)
+![IHM AUTOMOBILE](media/ihm/ihm-gestion-automobile.png)
+![IHM CLIENT](media/ihm/ihm-gestion-client.png)
+![IHM RECHERCHE DYSFUNCTION](media/ihm/recherche_dysfonctionnement.png)
+![IHM RECHERCHE MAINTENANCE](media/ihm/recherche_maintenance.png)
+![IHM DIAGNOSTIC](media/ihm/succes_diagnostic.png)
+### Rapport
+![RAPPORT](media/rapport_diagnostic.png)
+
+## Datas
+![RAPPORT](media/data/datamarts_dossier.png)
+![RAPPORT](media/data/datamarts_diagnosis.png)
+![RAPPORT](media/data/datamarts_repair.png)
