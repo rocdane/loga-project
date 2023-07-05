@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3236f10-867a-474c-b38c-7a4e4710b54b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service" beforeDir="false" afterPath="$PROJECT_DIR$/customer-management-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-management-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/ClientManagementServicesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/app/api/AuthenticationManagementServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/app/api/AuthenticationManagementServicesProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/controller/AutomobileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/controller/AutomobileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/controller/DossierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/controller/DossierController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/vendor/config/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/vendor/config/Loader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/src/main/java/com/loga/microservices/cms/vendor/config/Security.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-management-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/src/main/resources/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-management-service/src/test/java/com/loga/microservices/cms/ClientManagementServicesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-management-service/src/test/java/com/loga/microservices/cms/CustomerServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/loga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/loga.pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/AuthenticationManagementServicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/entity/AuthSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/entity/AuthSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/service/Authenticate.java" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/service/Authenticate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/service/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/service/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/service/IAuthenticate.java" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/service/IAuthenticate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/vendor/config/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/vendor/config/Loader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/src/main/java/com/loga/microservices/ams/vendor/config/Security.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/authentication-service/src/test/java/com/loga/microservices/ams/AuthenticationManagementServicesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/default/authentication-service/src/test/java/com/loga/microservices/ams/AuthenticationServiceTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QmPurHYyU1RhFWqVJjAWRbDQp0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/home/rochdane/IdeaProjects/WORKSHOP/Project/loga-master/microservice",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3236f10-867a-474c-b38c-7a4e4710b54b" name="Changes" comment="" />
+      <created>1685956008624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685956008624</updated>
+    </task>
+    <servers />
+  </component>
+</project>

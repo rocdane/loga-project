@@ -12,7 +12,7 @@
 	<artifactId>maintenance-management-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>repair-management-services</name>
+	<name>maintenance-management-services</name>
 	<description>LoGA - Libreoffice Garage App - RMS microservices</description>
 	<properties>
 		<java.version>17</java.version>
@@ -34,6 +34,10 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>
@@ -99,7 +103,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>rocdanesabi/loga-${project.artifactId}:${project.version}</name>
+						<name>rocdanesabi/loga-master:${project.artifactId}-${project.version}</name>
 						<publish>true</publish>
 					</image>
 					<pullPolicy>IF_NOT_PRESENT</pullPolicy>

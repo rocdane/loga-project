@@ -4,6 +4,8 @@ LoGA - Libreoffice Garage Apps [infos](https://github.com/rocdane/loga-project)
 ## Description
 LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans la gestion des maintenances. C'est un projet d'étude qui va au délà de son cadre initial. Le produit final sera utile pout tous les garagistes désirant améliorer leur méthode de travail.[A propos](https://github.com/rocdane/loga-project)
 
+![SOLUTION](media/solution.png)
+
 ## Fonctionnalités
 ### Basic
 1. Gestion informatisée des informations clients
@@ -29,5 +31,74 @@ LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans 
     "maintenance_resource_management":"Gestion informatisée des ressources maintenances",
     "resource_monitoring_management":"Gestion informatisée des ressources statistiques"
   ]
+}
+```
+
+## Concepts
+
+```json
+{
+  "user":{
+  	"username",
+  	"password",
+  	"role"
+  },
+  "profile":{
+  	"name",
+  	"surname",
+  	"legacy",
+	"email",
+	"phone",
+	"address",
+	"user",
+	"hireAt",
+	"fireAt"
+  },
+  "maintenance":{
+  	"dossier":{
+	  	"reference",
+	  	"createdAt",
+	  	"customer":{
+	   		"name",
+	    		"contact",
+	    		"address",
+	    		"legacy"
+	  	},
+	  	"automobile":{
+		  	"vin",
+		  	"make",
+		  	"model",
+		  	"number",
+		  	"trim",
+		  	"unit"
+	  	}
+  	},
+  	"diagnosis":{
+	  	"reference",
+	  	"description",
+	  	"factors":[
+	  		"entity",
+	  		"dysfunction",
+	  		"maintenance"
+	  	]
+	},
+  	"repair":{
+	  	"reference",
+	  	"description",
+	  	"tasks":[
+	  		"designation",
+	  		"description",
+	  		"duration",
+	  		"cost"
+	  	],
+	  	"spares":[
+	  		"designation",
+	  		"description",
+	  		"quantity",
+	  		"price",
+	  		"amount"
+	  	]
+	}
+  }
 }
 ```
