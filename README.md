@@ -106,34 +106,54 @@ LoGA est un projet informatique qui a pour objectif d'aider les garagistes dans 
 
 ## Conception
 ### Comportements
+#### Diagramme de séquence du service intelligent
 ![INTELLIGENCE_SEQUENCE](media/comportement/intelligence_sequence_diagram.png)
+#### Diagramme de séquence du service de réparation
 ![REPAIR_SEQUENCE](media/comportement/repair_sequence_diagram.png)
+#### Diagramme de séquence du service de diagnostic
 ![DIAGNOSIS_SEQUENCE](media/comportement/diagnosis_sequence_diagram.png)
 ### Structures
+#### Diagramme de classe du service intelligent
 ![INTELLIGENCE_CLASS](media/structure/intelligent_service_class_diagram.png)
+#### Diagramme de classe du service de réparaion
 ![REPAIR_CLASS](media/structure/repair_service_class_diagram.png)
+#### Diagramme de séquence du service de diagnostic
 ![DIAGNOSIS_CLASS](media/structure/diagnosis_service_class_diagram.png)
+#### Diagramme de séquence du service client
 ![CUSTOMER_CLASS](media/structure/customer_service_class_diagram.png)
 ### Composants
+#### Diagramme des composants
 ![COMPONENT](media/structure/component_diagram.png)
 ### Déploiement
+#### Diagramme de déploiement
 ![DEPLOYMENT](media/structure/deployment_diagram.png)
 
 ## Résultats
 ### Ontologie d'application
+#### Graphe de l'ontologie de diagnostic automobile
 ![ONTOLOGIE](media/ontologie/automaintontology.png)
+#### Individus de la classe Dysfonctionnement de l'ontologie
 ![DYSFUNCTION](media/ontologie/indiv_dysfonctionnement.png)
+#### Individus de la classe Maintenance de l'ontologie
 ![MAINTENANCE](media/ontologie/indiv_maintenance.png)
 ### Interfaces
+#### Menu principal
 ![IHM ACCUEIL](media/ihm/ihm-accueil.png)
+#### Menu Atelier
 ![IHM ACCUEIL ATELIER](media/ihm/ihm-accueil-atelier.png)
+#### Tableau de bord
 ![IHM DASHBOARD](media/ihm/ihm-dashboard.png)
+#### Interface de gestion des automobiles
 ![IHM AUTOMOBILE](media/ihm/ihm-gestion-automobile.png)
+#### Interface de gestion des clients
 ![IHM CLIENT](media/ihm/ihm-gestion-client.png)
+#### Assistance de saisie des dysfonctionnements
 ![IHM RECHERCHE DYSFUNCTION](media/ihm/recherche_dysfonctionnement.png)
+#### Assistance de saisie des maintenances
 ![IHM RECHERCHE MAINTENANCE](media/ihm/recherche_maintenance.png)
+#### Succès d'enregistrement du diagnostic
 ![IHM DIAGNOSTIC](media/ihm/succes_diagnostic.png)
-### Rapport
+### Exemple de rapport de diagnostic
 ![RAPPORT](media/rapport_diagnostic.png)
 
 ## Datas
